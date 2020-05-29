@@ -1,0 +1,258 @@
+[
+    {
+      "question": "What family is your big from?",
+      "choice1": "Green Snake",
+      "choice2": "Yellow Monkey",
+      "choice3": "Red Dragon",
+      "choice4": "Blue Bull",
+      "answer": 1
+    },
+    {
+      "question": "What is you big's favorite snack?",
+      "choice1": "Oreos",
+      "choice2": "French Fries",
+      "choice3": "Hot Cheetos",
+      "choice4": "Popcorn",
+      "answer": 3
+    },
+    {
+      "question": "What is your big's major?",
+      "choice1": "Philosophy",
+      "choice2": "Computer Science",
+      "choice3": "Dance",
+      "choice4": "Biology",
+      "answer": 2
+    },
+    {
+      "question": "Choose the Correct answer",
+      "choice1": "correct",
+      "choice2": "CORRect",
+      "choice3": "CorReCt",
+      "choice4": "Correct",
+      "answer": 4
+    },
+    {
+      "question": "What's your big's favorite color?",
+      "choice1": "Lavender",
+      "choice2": "Blue",
+      "choice3": "Beige",
+      "choice4": "Maroon",
+      "answer": 2
+    },
+    {
+      "question": "Does your big like boba?",
+      "choice1": "Yes",
+      "choice2": "It could be better",
+      "choice3": "No opinion",
+      "choice4": "Hate it",
+      "answer": 1
+    },
+    {
+      "question": "How much does your big like fried chicken?",
+      "choice1": "Disgusted by it",
+      "choice2": "Couldn't care less",
+      "choice3": "It's alright",
+      "choice4": "Would die for it",
+      "answer": 4
+    },
+    {
+      "question": "What is your big's birthday month?",
+      "choice1": "June",
+      "choice2": "April",
+      "choice3": "October",
+      "choice4": "December",
+      "answer": 3
+    },
+    {
+      "question": "Never gonna...",
+      "choice1": "GIVE YOU UP",
+      "choice2": "NEVER GONNA LET YOU DOWN",
+      "choice3": "NEVER GONNA RUN AROUND",
+      "choice4": "AND DESERT YOU",
+      "answer": 1
+    },
+    {
+      "question": "What pet does your big have?",
+      "choice1": "Petless",
+      "choice2": "Fish",
+      "choice3": "Cat",
+      "choice4": "Dog",
+      "answer": 4
+    },
+    {
+      "question": "How many countries has your big traveled to?",
+      "choice1": "4",
+      "choice2": "2",
+      "choice3": "0",
+      "choice4": "6",
+      "answer": 1
+    },
+    {
+      "question": "LONG AGO THE FOUR NATIONS LIVED TOGETHER IN HARMONY BUT EVERYTHING CHANGED WHEN THE...",
+      "choice1": "THERE IS NO WAR IN BA SING SE",
+      "choice2": "FIRE NATION ATTACKED",
+      "choice3": "SOUTHERN WATER TRIBE GOT WRECKED",
+      "choice4": "AIR NOMADS? OBLITERATED.",
+      "answer": 2
+    },
+    {
+      "question": "What are the four elements that the avatar can control?",
+      "choice1": "Love, Despairity, Depression, Hunger",
+      "choice2": "Appa, Momo, Sokka, Katara",
+      "choice3": "Earth, Fire, Water, Air",
+      "choice4": "Unagi, Sashimi, Nigiri, Norimaki",
+      "answer": 3
+    },
+    {
+      "question": "What's you big's favorite drink?",
+      "choice1": "Soju",
+      "choice2": "Water",
+      "choice3": "Soda",
+      "choice4": "Fruit Tea",
+      "answer": 4
+    },
+    {
+      "question": "What are the only forms of exercise your big does?",
+      "choice1": "Walking the dog, gym on some Fridays, dance",
+      "choice2": "Gyming all day every day",
+      "choice3": "Sleep",
+      "choice4": "None",
+      "answer": 1
+    },
+    {
+      "question": "What's your big's favorite icecream flavor?",
+      "choice1": "Vanilla",
+      "choice2": "Chocolate",
+      "choice3": "Strawberry",
+      "choice4": "Neapolitan",
+      "answer": 3
+    },
+    {
+      "question": "Where is your big from?",
+      "choice1": "San Francisco",
+      "choice2": "San Jose",
+      "choice3": "Campbell",
+      "choice4": "Sacramento",
+      "answer": 2
+    },
+    {
+      "question": "Your big's favorite fruit?",
+      "choice1": "Pears",
+      "choice2": "Pomegranate",
+      "choice3": "Strawberries",
+      "choice4": "Red Grapefruit",
+      "answer": 2
+    },
+    {
+      "question": "What is your big's favorite candy?",
+      "choice1": "M&M's",
+      "choice2": "Skittles",
+      "choice3": "Gummies (Gummy bears / Gummy Worms/ etc.)",
+      "choice4": "Happy Hippos / Any Kinder Product",
+      "answer": 4
+    },
+    {
+      "question": "IYKYK",
+      "choice1": "I yanked Kyle's yak Korey",
+      "choice2": "I yelled 'Kambucha' ya know ",
+      "choice3": "If you know, you know",
+      "choice4": "If you knew, you knew",
+      "answer": 3
+    },
+    {
+      "question": "All my f*cking _____ break your f*cking ____ b*tch",
+      "choice1": "headbangers; neck",
+      "choice2": "rail breakers; rail",
+      "choice3": "ravers; neck",
+      "choice4": "druggies; bank",
+      "answer": 1
+    },
+    {
+      "question": "I'm sorry, don't leave me, I want you here with me.",
+      "choice1": "I know that our love is gone",
+      "choice2": "I know that your love is gone",
+      "choice3": "I can't breathe, I'm so weak, I know that this isn't easy",
+      "choice4": "I know that this love is gone",
+      "answer": 2
+    },
+    {
+      "question": "What hand(s) does your big write with?",
+      "choice1": "Right",
+      "choice2": "Left",
+      "choice3": "Both",
+      "choice4": "Your big doesn't have hands",
+      "answer": 1
+    },
+    {
+      "question": "What ethnicity is your big?",
+      "choice1": "Korean",
+      "choice2": "White",
+      "choice3": "Vietnamese",
+      "choice4": "Chinese",
+      "answer": 3
+    },
+    {
+      "question": "Your big's go-to outfit",
+      "choice1": "T-shirt and Jeans",
+      "choice2": "T-shirt and Sweats",
+      "choice3": "Hoodie and Shorts",
+      "choice4": "Hoodie and Sweats",
+      "answer": 4
+    },
+    {
+      "question": "What height range is your big in?",
+      "choice1": "4.5ft - 4.11ft",
+      "choice2": "5ft - 5.5ft",
+      "choice3": "5.5ft - 6ft",
+      "choice4": "6ft +",
+      "answer": 2
+    },
+    {
+      "question": "What song lyric best describes your big?",
+      "choice1": "Mina sako arigato, k-k-k-kawaii",
+      "choice2": "I'm lonely as f*ck",
+      "choice3": "Young, dumb, and broke",
+      "choice4": "Let's make the most of tonight like we're gonna die young",
+      "answer": 3
+    },
+    {
+      "question": "What's your big's favorite animal?",
+      "choice1": "Arctic fox",
+      "choice2": "Panda",
+      "choice3": "Leopard",
+      "choice4": "Barn owl",
+      "answer": 1
+    },
+    {
+      "question": "The mitochondria is...",
+      "choice1": "the powerhouse of the cell",
+      "choice2": "very nutritious",
+      "choice3": "the snack that smiles back",
+      "choice4": "love, the mitochondria is life",
+      "answer": 1
+    },
+    {
+      "question": "Which Animal Crossing New Horizons villager is a cat?",
+      "choice1": "Bertha",
+      "choice2": "Lolly",
+      "choice3": "Klaus",
+      "choice4": "Mac",
+      "answer": 2
+    },
+    {
+      "question": "I was a girl in the village doing alright then I became a...",
+      "choice1": "werewolf overnight",
+      "choice2": "zombie overnight",
+      "choice3": "princess overnight",
+      "choice4": "father overnight",
+      "answer": 3
+    },
+    {
+      "question": "Hello darkness my...",
+      "choice1": "ex",
+      "choice2": "own parents",
+      "choice3": "old friend",
+      "choice4": "only friend",
+      "answer": 3
+    }
+  ]
