@@ -6,7 +6,7 @@ root {
     font-family: Optima, sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #CD853F;
 }
 
 h1,
@@ -29,7 +29,6 @@ h1 > span {
 
 h2 {
     font-size: 4.2rem;
-    color: #CD853F;
     margin-bottom: 4rem;
     font-weight: 700;
 }
