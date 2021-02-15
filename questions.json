@@ -1,14 +1,14 @@
 [
     {
       "question": "What family is your big from?",
-      "choice1": "Green Snake",
-      "choice2": "Yellow Monkey",
-      "choice3": "Red Dragon",
-      "choice4": "Blue Bull",
+      "choice1": "Green Turtle",
+      "choice2": "Yellow Dragon",
+      "choice3": "Red Pheonix",
+      "choice4": "Blue Unicorn",
       "answer": 1
     },
     {
-      "question": "What is you big's favorite snack?",
+      "question": "What is your big's favorite snack?",
       "choice1": "Oreos",
       "choice2": "French Fries",
       "choice3": "Hot Cheetos",
