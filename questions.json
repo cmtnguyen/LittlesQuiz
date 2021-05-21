@@ -24,6 +24,14 @@
       "answer": 2
     },
     {
+      "question": "What was your big's favorite subject in school?",
+      "choice1": "P.E.",
+      "choice2": "Science",
+      "choice3": "Math",
+      "choice4": "English",
+      "answer": 1
+    },
+    {
       "question": "Choose the Correct answer",
       "choice1": "correct",
       "choice2": "CORRect",
@@ -108,7 +116,7 @@
       "choice1": "Soju",
       "choice2": "Water",
       "choice3": "Soda",
-      "choice4": "Fruit Tea",
+      "choice4": "Tea",
       "answer": 4
     },
     {
@@ -125,7 +133,7 @@
       "choice2": "Chocolate",
       "choice3": "Strawberry",
       "choice4": "Neapolitan",
-      "answer": 3
+      "answer": 1
     },
     {
       "question": "Where is your big from?",
@@ -240,12 +248,28 @@
       "answer": 2
     },
     {
+      "question": "Who does your big simp for?",
+      "choice1": "Porter Robinson",
+      "choice2": "Dabin",
+      "choice3": "Yetep",
+      "choice4": "Illenium",
+      "answer": 2
+    },
+    {
       "question": "I was a girl in the village doing alright then I became a...",
       "choice1": "werewolf overnight",
       "choice2": "zombie overnight",
       "choice3": "princess overnight",
       "choice4": "father overnight",
       "answer": 3
+    },
+    {
+      "question": "When's your big's birthday?",
+      "choice1": "6/26",
+      "choice2": "4/26",
+      "choice3": "1/05",
+      "choice4": "10/22",
+      "answer": 4
     },
     {
       "question": "Hello darkness my...",
