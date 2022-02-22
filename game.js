@@ -14,51 +14,51 @@ let availableQuestions = [];
 
 let questions = [];
 fetch("questions.json")
-    .then(res => {
-        return res.json();
-    })
-    .then(loadedQuestions => {
-        questions = loadedQuestions;
-        startGame();
-    })
-    .catch(err => {
-        console.error(err);
-    });
+  .then(res => {
+    return res.json();
+  })
+  .then(loadedQuestions => {
+    questions = loadedQuestions;
+    startGame();
+  })
+  .catch(err => {
+    console.error(err);
+  });
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 10;
 
 startGame = () => {
-    questionCounter = 0;
-    score = 0;
-    availableQuesions = [...questions];
-    getNewQuestion();
-    game.classList.remove("hidden");
-    loader.classList.add("hidden");
-  };
-  
-  getNewQuestion = () => {
-    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        localStorage.setItem("mostRecentScore", score);
-        return window.location.assign("/LittlesQuiz/end.html");
-    }
-    questionCounter++;
-    progressText.innerText = "Question " + questionCounter + "/" + MAX_QUESTIONS;
-    //update progress bar
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+  questionCounter = 0;
+  score = 0;
+  availableQuesions = [...questions];
+  getNewQuestion();
+  game.classList.remove("hidden");
+  loader.classList.add("hidden");
+};
 
-    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-    currentQuestion = availableQuesions[questionIndex];
-    question.innerText = currentQuestion.question;
+getNewQuestion = () => {
+  if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    localStorage.setItem("mostRecentScore", score);
+    return window.location.assign("/LittlesQuiz/end.html");
+  }
+  questionCounter++;
+  progressText.innerText = "Question " + questionCounter + "/" + MAX_QUESTIONS;
+  //update progress bar
+  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    choices.forEach(choice => {
+  const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+  currentQuestion = availableQuesions[questionIndex];
+  question.innerText = currentQuestion.question;
+
+  choices.forEach(choice => {
     const number = choice.dataset["number"];
     choice.innerText = currentQuestion["choice" + number];
   });
 
-    availableQuesions.splice(questionIndex, 1);
-    acceptingAnswers = true;
+  availableQuesions.splice(questionIndex, 1);
+  acceptingAnswers = true;
 };
 
 choices.forEach(choice => {
@@ -76,10 +76,14 @@ choices.forEach(choice => {
       incrementScore(CORRECT_BONUS);
     }
 
-    selectedChoice.parentElement.classList.add(classToApply);
+    selectedChoice.parentElement.firstElementChild.classList.add(`${classToApply}Text`); //choice-prefix
+    selectedChoice.parentElement.classList.add(classToApply); //applies to choice-container
 
     setTimeout(() => {
+      //remove styling for next question
+      selectedChoice.parentElement.firstElementChild.classList.remove(`${classToApply}Text`);
       selectedChoice.parentElement.classList.remove(classToApply);
+
       getNewQuestion();
     }, 500);
   });

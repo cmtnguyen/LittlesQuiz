@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congrats for finishing!</title>
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="end.css" />
 </head>
-<body style="background-image: url('https://secure.img1-ag.wfcdn.com/im/17351663/compr-r85/6488/64882856/shelly-fish-scales-3281-l-x-205-w-wallpaper-roll.jpg'); ">
-    
-    <div id="container">
-        <div id="end" class="flex-center flex-column">
-            <h1>You finished the quiz!</h1>
-            <img style="border:10px outset #eee;" src="https://media.wired.com/photos/5cdefc28b2569892c06b2ae4/master/w_2560%2Cc_limit/Culture-Grumpy-Cat-487386121-2.jpg"
-            width="350" height="300"></img>
-            <h2>Score:</h2>
-            <h1 id="finalScore"></h1>
-            <form>
-                <input type="text" 
-                name="username" 
-                id="username" 
-                placeholder="Name"/>
-                <button type="submit" class="btn" id="saveScoreBtn"
-                onclick="saveHighScore(event)" disabled>Save</button>
-            </form>
-            
-            <a class="btn" href="/LittlesQuiz/game.html">Play Again</a>
-            <a class="btn" href="/LittlesQuiz/">Go Home</a>
-            
-        </div>
+
+<body>
+    <div class="endContainer">
+        <p class="titleText">Congrats! You scored...</p>
+        <p id="finalScore"></p>
+        <form>
+            <input type="text" name="username" id="username" placeholder="Name" />
+            <button type="submit" class="saveBtn" id="saveScoreBtn" onclick="saveHighScore(event)"
+                disabled>Save</button>
+        </form>
+        <a class="endBtn" href="/LittlesQuiz/game.html">Play Again</a>
+        <a class="endBtn" href="/LittlesQuiz/">Home</a>
     </div>
+
     <script src="end.js"></script>
 </body>
+
 </html>

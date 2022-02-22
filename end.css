@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "RedRose-Regular";
+  src: url("./Assets/Font/RedRose-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "RedRose-Regular", cursive;
+}
+.endContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./Assets/End_BG.png");
+  background-repeat: no-repeat;
+  background-color: #fdbd18;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleText {
+  margin-top: 1rem;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+#finalScore {
+  margin-top: 0;
+  font-size: 5.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.endBtn {
+  box-sizing: content-box;
+  padding: 0 0.5rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  border: 0.25rem solid white;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+
+.endBtn:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input[type="text"] {
+  border: 0.1rem solid #d7d7d7;
+  height: 3rem;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+input[type="text"]::placeholder {
+  color: #d7d7d7;
+  font-size: 1.75rem;
+  padding-left: 1rem;
+}
+
+.saveBtn {
+  font-size: 2rem;
+  padding: 0 1rem;
+  border: none;
+  color: white;
+  background-color: #d7d7d7;
+  height: 3.3rem;
+  margin-left: -0.3rem;
+  vertical-align: middle;
+}

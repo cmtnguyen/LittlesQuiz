@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "RedRose-Regular";
+  src: url("./Assets/Font/RedRose-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "RedRose-Regular", cursive;
+}
+
+.landingContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./Assets/Index_BG.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #8ecae6;
+  background-size: 100% 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  height: 360px;
+  width: 360px;
+  margin-top: 38vh;
+  margin-left: 3vw;
+}
+
+.cloudContainer {
+  width: 65vw;
+  margin-top: 3vh;
+  background-image: url("./Assets/TextCloud.png");
+  background-repeat: no-repeat;
+  background-size: 100% 55%;
+  justify-content: center;
+}
+
+.textCloud {
+  width: 100%;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.cloudText {
+  color: #023047;
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.cloudBtnContainer {
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.startBtn {
+  font-size: 2.5rem;
+  padding: 0.5rem 2.5rem;
+  width: 20rem;
+  text-align: center;
+  border: 0.25rem solid #219ebc;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #219ebc;
+  background-color: transparent;
+}
+
+.bottomText {
+  text-decoration: none;
+  position: absolute;
+  margin-top: 88vh;
+  margin-left: 77vw;
+}
+
+.startBtn:hover,
+.bottomText:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.startBtn:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+.bottomText:hover {
+  text-shadow: 0.4rem 0.4rem 1.4rem rgba(27, 169, 240, 0.815);
+}

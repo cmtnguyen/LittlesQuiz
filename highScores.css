@@ -1,17 +1,67 @@
+@font-face {
+  font-family: "RedRose-Regular";
+  src: url("./Assets/Font/RedRose-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "RedRose-Regular", cursive;
+}
+
+.highScoreContainer {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  background-image: url("./Assets/HighScore_BG.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #023047;
+  background-size: 100% 40%;
+  display: flex;
+  flex-direction: column;
+}
+
 #highScoresList {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 3rem;
-    margin-top: -3rem;
-    
+  padding-left: 0;
+  margin-bottom: 3rem;
+}
+
+.high-score-title,
+.high-score,
+.bottomReturn {
+  color: white;
+}
+.high-score-title {
+  margin-left: 40vw;
+  margin-top: 1rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .high-score {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
-    color: #ffd700;
+  list-style-position: inside;
+  margin-left: 38vw;
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .high-score:hover {
-    transform: scale(1.025);
+  text-shadow: 0.4rem 0.4rem 1.4rem rgba(236, 192, 70, 0.815);
+}
+
+.bottomReturn {
+  font-size: 2.5rem;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 88vh;
+  margin-left: 3vw;
+}
+
+.bottomReturn:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  text-shadow: 0.4rem 0.4rem 1.4rem rgba(236, 192, 70, 0.815);
 }
